@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=WindSong:wght@500&display=swap');
+
+body {
+  margin: 0;
+}
+.container {
+  padding: 0;
+  width: 700px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.content {
+  margin: 0;
+  width: 700px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content h2 {
+  margin-top: 50px;
+  color: #888888;
+}
+
+.content p {
+  color: #333333;
+}
+
+header {
+  height: 40vh;
+  background-image: url("https://source.unsplash.com/random/2000x2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  padding: 100px 100px;
+  margin: 0;
+}
+
+header div {
+  width: 700px;
+  margin: 100px auto;
+  vertical-align: middle;
+  text-shadow: 2px 2px #000000;
+}
+
+header h1 {
+  opacity: 0.9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+header h2 {
+  opacity: 0.9;
+  font-family: 'WindSong', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #a7cece;
+  font-size: 24px;
+  font-family: 'WindSong', cursive;
+}
+
+a:hover {
+  background-color: #00cfcf;
+}
